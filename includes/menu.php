@@ -1,10 +1,9 @@
-
 <?php
 require_once './cabecalho.php';
 require_once './banco-funcao.php';
+require_once './conecta.php';
 
 
-        
 //$tipo = $_REQUEST['tipo']; pega o tipo de usuario
 $tipomenu=""; //= $_REQUEST['menu']; // futuramente pegara o tipo de menu
 
@@ -92,16 +91,12 @@ else{
     <input type="submit" class="botao btn-primary" id="pedir" value="Pedir"/>
 </form>
 
-<!--
-<nav>
-  <ul class="pager">
-    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
-    <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
-  </ul>
-</nav> --> <!-- Este código é para redirecionar as páginas.
+
+
+
 <?php require_once './rodape.php';
 
-
+// --------------------- ANOTAÇÕES -------------------------
 /*
-       criar um input e usar o id do item com id do  proprio input
+       
   */

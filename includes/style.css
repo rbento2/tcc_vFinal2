@@ -1,0 +1,63 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+    margin: 0; padding: 0; border: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-image: url("backPretoLaranja.png");
+}
+
+#demo {
+    width: 800px; margin: 250px auto;
+}
+
+nav#teste ul {
+    list-style: none; overflow: hidden; position: relative;
+}
+nav#teste ul li {
+    float: left; margin: 0 20px 0 0;
+}
+nav#teste ul li a {
+    display: block; width: 180px; height: 180px;
+    background-image: url("menus.png"); 
+    background-size: inherit;
+    background-repeat: no-repeat;
+}
+nav#teste ul li:nth-child(1) a {
+    background-color: #5bb2fc;
+    background-position: 15px 40px;
+}
+nav#teste ul li:nth-child(2) a {
+    background-color: #58ebd3;
+    background-position: 20px -140px;
+}
+nav#teste ul li:nth-child(3) a {
+    background-color: #ffa659;
+    background-position: 20px -320px;
+}
+nav#teste ul li:nth-child(4) a {
+    background-color: #ff7a85;
+    background-position: 28px -500px;
+}
+
+nav#teste ul li a span {
+    font: 40px "Dosis", sans-serif; text-transform: uppercase;
+    position: absolute; left: 580px; top: 29px;
+    display: none;
+}
+nav#teste ul li a:hover span {
+    display: block;
+}
+
+nav#teste ul li:nth-child(1) a span {
+    color: #5bb2fc;
+}
+nav#teste ul li:nth-child(2) a span {
+    color: #58ebd3;
+}
+nav#teste ul li:nth-child(3) a span {
+    color: #ffa659;
+}
+nav#teste ul li:nth-child(4) a span {
+    color: #ff7a85;
+}
