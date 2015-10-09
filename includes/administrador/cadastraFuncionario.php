@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        Usu&aacute;rio <br/> 
+                        Usu&aacute;rio <br/>
                         <small>&nbsp;&nbsp;&nbsp;&nbsp;Cadastro de novos usu&aacute;rios</small>
                     </h1>
                 </div>
