@@ -4,7 +4,7 @@ require_once './cabecalho.php';
 require_once './banco-funcao.php';
 
 
-     
+        
 //$tipo = $_REQUEST['tipo']; pega o tipo de usuario
 $tipomenu=""; //= $_REQUEST['menu']; // futuramente pegara o tipo de menu
 
@@ -65,7 +65,7 @@ else{
             <?php for($b=0;$b<=1;$b++){ ?>
                   <td class="td-menu"> <?php echo($b==1?formataNumero($bebida[$m][$b]):$bebida[$m][$b]);?></td>
             <?php } ?>
-                  <td class="td-menu"><input type="number" class="ItemMenu input " name="quantidadeBebida[]" min="0" value="0"/></td>
+                  <td class="td-menu"><input type="number" class="ItemMenu input" name="quantidadeBebida[]" min="0" value="0"/></td>
             
         </tr>
        <?php } ?>
@@ -92,6 +92,13 @@ else{
     <input type="submit" class="botao btn-primary" id="pedir" value="Pedir"/>
 </form>
 
+<!--
+<nav>
+  <ul class="pager">
+    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+    <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+  </ul>
+</nav> --> <!-- Este código é para redirecionar as páginas.
 <?php require_once './rodape.php';
 
 

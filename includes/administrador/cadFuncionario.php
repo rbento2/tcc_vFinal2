@@ -12,7 +12,7 @@ $senha = $_REQUEST['senha'];
 $tipo  = $_REQUEST['tipo'];
 $confSenha = $_REQUEST['confSenha'];
 
-if($tipo == $confSenha){ echo"asdasd";
+if($tipo == $confSenha){
 $returnLogin = criarLogin($conexao, $login, $senha,$tipo); 
 }else{
      msg('warning','As senhas n&atilde;o conferem','Por favor verifique se as senhas e tente novamente ','./index.php');
