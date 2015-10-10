@@ -5,7 +5,6 @@ require_once './cabecalho.php';
 
 $usuario = $_REQUEST ['login'];
 $senha = $_REQUEST['senha'];
+
 $resultado = validarLogin($conexao,$usuario,$senha);
-
-
 
